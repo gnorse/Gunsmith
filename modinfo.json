@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "gunsmith",
+    "name": "Gunsmith",
+    "authors": [ "Gnorse" ],
+    "description": "Adds a modular gun creation system.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

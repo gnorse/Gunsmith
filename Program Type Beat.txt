@@ -1,0 +1,59 @@
+Select Barrel:
+
+		ACT Marksman Barrel: +Volume +Accuracy +Aiming time +Weight -Recoil
+		ELF Tactical Barrel: -Volume -Accuracy -Aiming time +Weight -Recoil
+		SMC Infantry Barrel: +Volume +Accuracy +Aiming time -Weight +Recoil
+		LFL Killteam Barrel: -Volume --Accuracy -Aiming time -Weight +Recoil +Durability
+		THI Special Forces Integrated Suppressor: -Sound ++Weight ++Aiming time ++Accuracy +Volume -Recoil
+		THI Operative Integrated Suppressor: -Sound -Volume +Recoil
+		
+Select Handguard:
+
+		ACT Spec Ops Handguard: ++Accuracy +Weight -Recoil +Volume +Aiming time
+		LFL Trench Warfare Handguard: --Recoil +Weight -Volume -Aiming time -Accuracy
+		THI Intervention Handguard: -Weight +Recoil -Volume -Aiming time
+		LFL Firesupport Handguard: --Recoil +Weight +Volume +Aiming time +Accuracy
+		SMC Trooper Handguard: -Weight +Volume +Aiming time +Accuracy
+		ELF Tactical Handguard: +Weight -Recoil -Volume -Aiming time
+		
+Select Receiver:
+
+		ACT Marksman Receiver Assembly: .308, Magazine-fed
+		LFL Vanguard Receiver Assembly: .308, Belt-fed
+		SMC Marine Receiver Assembly: .223, Magazine-fed
+		LFL Bunkerbuster Receiver Assembly: .223, Belt-fed
+		ACT Sniper Receiver Assembly: .50, Magazine-fed
+		LFL Overwatch Reciever Assembly: .50, Belt-fed
+		
+Select Trigger Mechanism:
+
+		LFL Hair Trigger Mechanism: +Firerate --Accuracy, Automatic
+		THI Snapshot Trigger Mechanism: -Aiming time -Firerate +Accuracy, Semi-auto
+		ACT Marksman Trigger Mechanism: -Firerate ++Accuracy, Semi-auto
+		ELF Rapidfire Trigger Mechanism: +Firerate, Semi-auto
+		ELF Twitch Trigger Mechanism: +Firerate -Accuracy, Burst-fire
+		SMC Ranger Trigger Mechanism: -Aiming time -Firerate -Accuracy, Selective-burst
+		ELF Firesupport Trigger Mechanism: --Firerate, Selective-auto
+		THI Operations Trigger Mechanism: -Firerate, Selective-burst
+		SMC Assault Trigger Mechanism: -Aiming time --Firerate -Accuracy, Selective-auto
+		
+Select Pistol Guard:
+		ELF Studded Grip: -Aiming time -Accuracy
+		THI Quick-Response Grip: -Aiming time +Recoil
+		LFL Imprint Grip: -Accuracy -Recoil
+		ACT Scout Grip: +Aiming time -Recoil
+
+
+
+
+
++ Aim + Recoil	5
++ Aim - Recoil  10
+- Aim + Recoil  10
+- Aim - Recoil  15
+++ Aim - Recoil
+
+Short Light 300g
+Short Heavy 400g
+Long Light 400g
+Long Heavy 500g

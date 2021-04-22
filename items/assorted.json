@@ -1,0 +1,18 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "gs_rifle_parts",
+    "symbol": ")",
+    "color": "brown",
+    "looks_like": "box_small",
+    "name": { "str": "box of assorted rifle gunsmithing parts" },
+    "description": "a medium-sized box filled with various different rifle parts. You could probably make a fully customized rifle with this if you knew how to.",
+    "category": "spare_parts",
+    "price": 250000,
+    "price_postapoc": 50000,
+    "material": [ "steel" ],
+    "weight": "4500 g",
+    "volume": "6000 ml",
+    "to_hit": -3
+  }
+]

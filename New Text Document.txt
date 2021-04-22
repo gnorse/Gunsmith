@@ -1,0 +1,27 @@
+Gun creation:
+
+Gunsmith repair kit + Gunsmith (Pistol/Rifle/SMG/Shotgun) parts = Gun frame
+(mechanics, weaponskill)
+
+
+Gun frame:
+
+Reciever (Pump-action, Semi-automatic, Burst-fire, Fully-automatic)
+Handguard (Free-floating, Drop-in Light, Drop-in Heavy)
+Barrel (Standard, Light, Heavy, Compact, Extended, Integral Suppressor)
+Grip (Standard, Custom, None, Tactical, Field) 
+Caliber (9mm, .45, .223, .308, .50, 00s, .44)
+
+
+Gun:
+
+Underbarrel
+Stock
+Sling
+Sights
+Rail
+Muzzle
+Magazine
+Mechanism
+Brass Catcher
+Accessories

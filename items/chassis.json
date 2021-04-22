@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gs_rifle_chassis",
+    "copy-from": "rifle_semi",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str": "modular rifle" },
+    "description": "A rifle chassis containing most essential rifle machinery assembled from scratch using various factory-made parts. Intended to be fully modular and customizable, and as such anyone with knowledge could create their perfect rifle provided they have the parts needed to complete it.",
+    "weight": "1500 g",
+    "volume": "3700 ml",
+    "longest_side": "200 mm",
+    "price": 300000,
+    "price_postapoc": 100000,
+    "to_hit": -2,
+    "bashing": 5,
+    "material": [ "steel" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": [ "308" ],
+    "dispersion": 1000,
+    "durability": 0,
+    "min_cycle_recoil": 0,
+	"modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "gs_223_mag", "gs_223_magsmall", "gs_223_magbig", "gs_308_mag", "gs_308_magsmall", "gs_308_magbig", "gs_50_mag", "gs_50_magsmall", "gs_50_magbig" ]
+      }
+    ],
+    "valid_mod_locations": [
+	  [ "modular receiver assembly", 1],
+	  [ "sling", 1 ]
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "gs_handguard_specops",
+    "type": "GUNMOD",
+    "name": { "str": "ACT spec ops handguard" },
+	"looks_like": "barrel_big",
+    "description": "A long, heavy freefloating handguard for use with a gunsmithing chassis. Made by ACT, it sharply increases accuracy, slightly increases weight, volume and aiming time while slightly lowering recoil.",
+    "weight": "400 g",
+    "integral_weight": "400 g",
+    "volume": "1000 ml",
+    "integral_volume": "1000 ml",
+    "price": 10000,
+    "price_postapoc": 3000,
+    "install_time": "15 m",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "modular handguard",
+    "mod_targets": [ "rifle" ],
+    "dispersion_modifier": -40,
+    "handling_modifier": 10,
+    "min_skills": [ [ "weapon", 3 ] ],
+    "add_mod": [ [ "rail", 1] ]
+  }
+]

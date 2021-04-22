@@ -1,0 +1,155 @@
+Companies:
+[
+Tactical Heat Industries (Stealth, Tactics)
+Elanore Firearms (Close Combat, Tactical)
+Accurate Combat Technology (Long Range combat)
+Steel Mountain Corporation (Regular, Standard)
+Livefire Labs (Close Quarters, SnP)
+]
+
+Gun Part Traits:
+[
+	Barrel:
+	[
+	*Light -Weight +Recoil
+	*Heavy +Weight -Recoil
+	*Short -Volume -Accuracy -Aiming time
+	*Long +Volume +Accuracy +Aiming time
+	*Integrated Suppressor -Sound +Weight +Aiming time +Accuracy
+	*Chrome-lining +Durability -Accuracy
+	*Other Variants: Rifling, Materials, Ports/Vents
+	]
+	Handguard:
+	[
+	*Free-floating +Accuracy 
+	*Drop-in -Recoil
+	*Light -Weight +Recoil
+	*Heavy +Weight -Recoil
+	*Short -Volume -Aiming time -Accuracy 
+	*Long +Volume +Aiming time +Accuracy
+	Number of attachments
+	]
+	Reciever:
+	[
+	*Caliber (9mm, .45, .223, .308, 00 shot, .50)
+	*Belt-fed
+	*Magazine-fed
+	*Pump-action
+	]
+	Trigger Mechanism:
+	[
+	*Lightweight +Firerate -Accuracy
+	*Tactical -Aiming time -Firerate
+	*Heavy -Firerate +Accuracy
+	*Semi-auto +Accuracy
+	*Burstfire
+	*Automatic -Accuracy
+	*Selective Burst -Accuracy
+	*Selective Auto -Accuracy -Firerate
+	]
+	Rear grip:
+	[
+	*Custom -Accuracy -Recoil
+	*Lightweight -Aiming time -Accuracy
+	*Field -Aiming time +Recoil
+	*Adhesive +Aiming time -Recoil
+	]
+]
+
+Gun Parts:
+[
+	Rifles:
+	[
+		Install Process:
+		[
+		Sling
+		Receiver = (Barrel, Reargrip, Sights, Stock, Trigger, Brass, Accessories)
+		Barrel = (Handguard, Underbarrel, Muzzle)
+		Handguard = (Rail)
+		]
+		Barrels:
+		[
+		ACT Marksman Barrel: Long, Heavy
+		ELF Tactical Barrel: Short, Heavy
+		SMC Infantry Barrel: Long, Light
+		LFL Killteam Barrel: Short, Light, Chrome-lining
+		THI Special Forces Integrated Suppressor: THI, Suppressor, Long, Heavy
+		THI Operative Integrated Suppressor: THI, Suppressor, Short, Light
+		]
+		Handguards:
+		[
+		ACT Spec Ops Handguard: Free-floating, Heavy, Long
+		LFL Trench Warfare Handguard: Drop-in, Heavy, Short
+		THI Intervention Handguard: Free-floating, Light, Short
+		LFL Firesupport Handguard: Drop-in, Heavy, Long
+		SMC Trooper Handguard: Drop-in, Light, Long
+		ELF Tactical Handguard: Free-floating, Heavy, Short
+		]
+		Reciever:
+		[
+		ACT Marksman Receiver Assembly: .308, Magazine-fed
+		LFL Vanguard Receiver Assembly: .308, Belt-fed
+		SMC Marine Receiver Assembly: .223, Magazine-fed
+		LFL Bunkerbuster Receiver Assembly: .223, Belt-fed
+		ACT Sniper Receiver Assembly: .50, Magazine-fed
+		LFL Overwatch Reciever Assembly: .50, Belt-fed
+		
+		]
+		Trigger Mechanism:
+		[
+		LFL Hair Trigger Mechanism: Lightweight, Automatic
+		THI Snapshot Trigger Mechanism: Tactical, Semi-auto
+		ACT Marksman Trigger Mechanism: Heavy, Semi-auto
+		ELF Rapidfire Trigger Mechanism: Lightweight, Semi-auto
+		ELF Twitch Trigger Mechanism: Lightweight, Burst-fire
+		SMC Ranger Trigger Mechanism: Tactical, Selective-burst
+		ELF Firesupport Trigger Mechanism: Heavy, Selective-auto
+		THI Operations Trigger Mechanism: Heavy, Selective-burst
+		SMC Assault Trigger Mechanism: Tactical, Selective-auto
+		]
+		Pistol grip:
+		[
+		ELF Studded Grip: Lightweight
+		THI Quick-Response Grip: Field
+		LFL Imprint Grip: Custom
+		ACT Scout Grip: Adhesive
+		]
+	
+	
+	Example of a long range gun:
+	[
+	ACT Marksman Barrel
+	ACT Spec Ops Handguard
+	SMC Marine Receiver Assembly
+	ACT Precision Trigger
+	ACT Scout Grip
+	]
+	Example of a spray and pray gun:
+	[
+	ELF Tactical Barrel
+	LFL Trench Warfare Handguard
+	SMC Phalanx Receiver Assembly
+	LFL Hair Trigger
+	ELF Studded Grip
+	]
+	]
+]
+
+Recipe:
+[
+Gunsmith repair kit (200 Batteries) + Assorted rifle gunsmithing parts = Rifle Chassis
+Time = 4 Hours
+Proficiency = Principles of Gunsmithing
+Book = Gunsmithing and You
+]
+
+Drops:
+[
+- Assorted parts & Gun parts: New gun store variant. On shelf & Vending machine
+- Gun parts: Traders, Dead mil zombies, Military areas.
+- Assorted parts: Military areas, Rarely traders
+
+-Assorted parts: Very, very rare. Very High price.
+-Gun parts: Varying rarity. Varying Price.
+]
+

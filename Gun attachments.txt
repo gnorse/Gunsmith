@@ -1,0 +1,110 @@
+Receiver (Firing mode, Loading mode, Caliber)
+Trigger Mechanism (Fire rate, Aiming speed)
+Barrel (Range, Recoil, Accuracy)
+Handguard (Recoil, Aiming speed)
+Pistol grip (Aiming speed, Target acquisition)
+
+[Gun Parts]:
+
+Barrel:
+*Light -Weight +Recoil
+*Heavy +Weight -Recoil
+*Short -Volume -Accuracy -Range -Aiming time
+*Long +Volume +Accuracy +Range +Aiming time
+*Integrated Suppressor -Sound +Weight +Aiming time +Accuracy
+
+Handguard:
+*Free-floating +Accuracy 
+*Drop-in -Recoil
+*Light -Weight +Recoil
+*Heavy +Weight -Recoil
+*Short -Volume -Weight +Recoil (-Accuracy?)
+*Long +Volume +Weight -Recoil (+Accuracy?)
+
+Reciever:
+*Semi-Automatic -Firerate +Accuracy 
+*Burstfire 
+*Automatic +Firerate -Accuracy
+*Caliber (9mm, .45, .223, .308, 00 shot, .50)
+*Belt-fed
+*Magazine-fed
+*Pump-action
+
+
+Trigger Mechanism:
+*Lightweight +Firerate -Accuracy
+*Tactical -Aiming time -Firerate
+*Heavy -Firerate +Accuracy
+
+Pistol grip:
+*Custom -Accuracy -Recoil
+*Tactical -Aiming time -Accuracy
+*Field -Aiming time +Recoil
+
+[Gun Frames]:
+
+Pistol -+Small
+SMG -+Medium
+Shotgun -+Medium
+Rifle -+Big
+
+[Gunsmithing Process]:
+
+Recipe: Gunsmith Repair Kit (x Charges) + [Gun Frame] Gunsmith Parts = [Gun] Frame
+Skill: 6 Mechanics, 4 [Gun]
+Found in: Gunsmithing and you
+Time: A lot
+Proficiency: Gunsmithing
+
+[Companies]:
+
+Tactical Heat Industries (Stealth, Tactics)
+Elanore Firearms (Close Combat, Tactical)
+Accurate Combat Technology (Long Range combat)
+Steel Mountain Corp (Regular, Standard)
+Livefire Labs (Close Quarters, SnP)
+
+[Attachments]:
+
+Barrels:
+
+ACT Marksman Barrel: Long, Heavy
+ELF Tactical Barrel: Short, Heavy
+SMC Infantry Barrel: Long, Light
+LFL Killteam Barrel: Short, Light
+THI Special Forces Integrated Suppressor: THI, Suppressor, Long, Heavy
+THI Operative Integrated Suppressor: THI, Suppressor, Short, Light
+
+Handguards:
+
+ACT Spec Ops Handguard: Free-floating, Heavy, Long
+LFL Trench Warfare Handguard: Drop-in, Heavy, Short
+THI Intervention Handguard: Free-floating, Light, Short
+LFL Firesupport Handguard: Drop-in, Heavy, Long
+SMC Trooper Handguard: Drop-in, Light, Long
+ELF Tactical Handguard: Free-floating, Heavy, Short
+
+Reciever:
+
+ACT Marksman Receiver Assembly: .308, Semi-automatic, Magazine-fed
+
+Trigger Mechanism:
+
+LFL Hair Trigger: Lightweight
+ACT Precision Trigger: Heavy
+ELF Tactical Trigger: Tactical
+
+Pistol grip:
+
+ELF Studded Grip: Tactical
+THI Quick-Response Grip: Field
+LFL Imprint Grip: Custom
+
+
+
+
+
+Sling
+Receiver = (Barrel, Reargrip, Sights, Stock, Trigger, Brass, Accessories)
+Barrel = (Handguard, Underbarrel, Muzzle)
+Handguard = (Rail)
